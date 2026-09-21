@@ -1,0 +1,800 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #E1D4C9;
+    padding-right: 40px;
+    padding-top: 6px;
+    padding-left: 40px;
+}
+header{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-top: -15px;
+    width: 100px;
+    height: 60px;
+}
+.menuButt{
+    display: none;
+}
+.photo1 {
+    position: absolute;
+    width: 100%;
+    height: 750px;
+    border-radius: 40px;
+    top: 0;
+    left: 0;
+}
+.container-coffee{
+    position: relative;
+    width: 100%;
+    height: 180px;
+}
+.coffee{
+    font-family: inter;
+    font-weight: 600;
+    padding: 100px;
+    z-index: 10;
+    position: relative;
+    font-size: 72px;
+    border: 1px;
+    width: 530px;
+    height: 228px;
+}
+.pRem {
+    color: #E1D4C9;
+    -webkit-text-stroke: 1px #000;
+    text-shadow: 0px 0px 1px #000;
+}
+.Enjoy{
+    font-style: italic;
+    color: #B0907A;
+}
+.about-coffee{
+    font-family: inter;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 100px;
+    padding-top: 0px;
+    z-index: 10;
+    position: relative;
+    color: #E1D4C9;
+    width: 530px;
+    height: 72px;
+    text-shadow: 0px 0px 10px #000;
+    text-stroke: 10px #000;
+}
+
+.menuP{
+    font-size: 16px;
+    text-align: center;
+    z-index: 10;
+    position: relative;
+    color: #403F3D;
+    background-color: #E1D4C9;
+}
+button{ 
+    width: 200px;
+    height: 64px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-color: #E1D4C9;
+    border-radius: 100px;
+    gap: 8px
+}
+.butt{
+    position: absolute;
+
+}
+.cofCup{
+    display: none;
+}
+.menuArr{
+    position: relative;
+    display: flex;
+    z-index: 10;
+    width: 20px;
+    height: 20px;
+    top: -41px;
+    left: 230px;
+}
+
+.menu-base{
+    display: flex;
+    gap: 5px;
+    color: #403F3D;
+}
+.menu{
+    text-decoration: underline 2px;
+    font-family: inter;
+    font-weight: 500;
+    width: 100px;
+    height: 60px;
+}
+.coffee-menu{
+    width: 20px;
+    height: 20px;
+}
+.P-S{
+    font-family: inter;
+    font-weight: 500;
+    display: flex;
+    gap: 40px;
+    color: #403F3D;
+}
+
+.container-choseCof{
+    padding-top: 650px;
+    height: 799px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+}
+.coffee-fav{
+    font-family: inter;
+    font-weight: 500;
+    color: #403F3D;
+}
+.photo2-1{
+    width: 480px;
+    height: 100%;
+}
+.photo2-2{
+    width: 480px;
+    height: 100%;
+}
+.photo2-3{
+    width: 480px;
+    height: 100%;
+}
+.fAv{
+    color: #B0907A;
+}
+.leftArr{
+    display: flex;
+    position: absolute;
+    padding-top: 350px;
+    margin-left: -100px;
+    z-index: 2;
+}
+.rightArr{
+    display: flex;
+    position: absolute;
+    padding-top: 350px;
+    right: 0px;
+    z-index: 2;
+}
+
+.carousel{
+    position: relative;
+}
+.carousel ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.slides{
+    height: 640px;
+    position: relative;
+}
+.slide{
+    position: absolute;
+    opacity: 0;
+    inset: 0;
+    transition: 200ms opacity ease-in-out;
+}
+.slide[data-active]{
+    opacity: 1;
+    z-index: 1;
+}
+.carousel-button{
+    background-color: #E1D4C9; 
+    width: 60px; 
+    height: 60px; 
+    border: none;
+    cursor: pointer;
+}
+
+.frapC{
+    font-family: inter;
+    font-weight: 500;
+    margin-top: -30px;
+    font-size: 30px;
+    color: #403F3D;
+}
+.frapC-2{
+    font-family: inter;
+    font-weight: 500;
+    margin-top: -30px;
+    font-size: 30px;
+    color: #403F3D;
+}
+.frapC-3{
+    font-family: inter;
+    font-weight: 500;
+    margin-top: -30px;
+    font-size: 30px;
+    color: #403F3D;
+}
+.frapOptions{
+    font-family: inter;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #403F3D;
+    font-size: 16px;
+}
+.frapOptions-2{
+    font-family: inter;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #403F3D;
+    font-size: 16px;
+}
+.frapOptions-3{
+    font-family: inter;
+    font-weight: 400;
+    margin-top: 15px;
+    color: #403F3D;
+    font-size: 16px;
+}
+.cofDoll1{
+    font-family: inter;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #403F3D;
+    font-size: 30px;
+}
+.cofDoll2{
+    font-family: inter;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #403F3D;
+    font-size: 30px;
+}
+.cofDoll3{
+    font-family: inter;
+    font-weight: 500;
+    margin-top: 15px;
+    color: #403F3D;
+    font-size: 30px;
+}
+
+.container-photosResource{
+    padding-top: 60px;
+    width: 100%;
+    border-radius: 40px;
+}
+.whaPhCof{
+    justify-content: center;
+    text-align: center;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 50px;
+    color: #403F3D;
+    margin-top: 100px;
+}
+.perfCof{
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 50px;
+    color: #B0907A;
+}
+
+img{
+    border-radius: 40px;
+}
+.mayPhoto{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+}
+.women-watch{
+    margin-left: 20px;
+    object-fit: cover;
+    height: 490px;
+    width: 560px;
+}
+.beatyCoffee{
+    margin-left: 20px;
+    object-fit: cover;
+    height: 330px;
+    width: 560px;
+    margin-top: 40px;
+
+}
+.menGo{
+    object-fit: cover;
+    width: 560px;
+    height: 330px;
+    margin-left: 30px;
+}
+.WoMen{
+    margin-top: 40px;
+    object-fit: cover;
+    width: 560px;
+    height: 490px;
+    margin-left: 30px;
+} 
+
+.apps-conteiner{
+    width: 100%;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.down1-app{
+    font-family: inter;
+    font-weight: 500;
+    margin-top: 40px;
+    color: #403F3D;
+    font-size: 60px;
+}
+.download{
+    font-family: inter;
+    font-weight: 500;
+    font-style: italic;
+    color: #B0907A;
+}
+.mobile-scr{
+    display: block;
+    margin-left: 315px;
+    margin-top: -450px;
+}
+.whereIsDownl{
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 450px;
+    background-color: #665F55;
+    margin-top: 130px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+}
+.foot-text{
+    -webkit-text-stroke: 0.9px #000;
+    text-shadow: 0px 0px 3px #000;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 60px;
+    margin-left: 85px;
+    padding-top: 40px;
+}
+.foot2{
+    margin-left: 20px;
+}
+.apps{
+    margin-top: 50px;
+    margin-left: 85px;
+}
+.instagram{
+    margin-left: 12px;
+}
+.facebook{
+    margin-left: 12px;
+}
+.place{
+    margin-left: 850px;
+    padding-top: 40px;
+}
+.phoneNum{
+    margin-left: 850px;
+    padding-top: 20px;
+}
+.time{
+    margin-left: 850px;
+    padding-top: 20px;
+}
+.contactS{
+    font-family: inter;
+    font-size: 24px;
+    margin-left: 850px;
+    margin-top: -230px;
+}
+
+
+@media (max-width: 768px) {
+    header{
+        margin-top: 10px;
+    }
+    .menuButt{
+        padding-top: 5px;
+        display: flex;
+    }
+    .logo{
+        margin-top: 0px;
+    }
+    .rightArr{
+        right: -20px;
+    }
+    .menu-base{
+        display: none;
+    }
+    .P-S{
+        display: none;
+    }
+    .photo1{
+        height: 644px;
+        padding-left: 0px;
+        margin-top: 40px;
+        width: 688px;
+    }
+    .coffee{
+        padding-left: 60px;
+    }
+    .about-coffee{
+        padding-left: 60px;
+    }
+    .button{
+        max-width: 200px;
+        height: 64px;
+        margin-top: 0px;
+        margin-left: -40px;
+    }
+    .cofCup{
+        display: none;
+    }
+    .menuArr{
+        position: relative;
+        margin-left: 0px;
+    }
+    .container-choseCof{
+        margin-top: -70px;
+        max-width: 668px;
+    }
+    .container-photosResource{
+        padding-top: 150px;
+    }
+    .whaPhCof{
+        font-size: 60px;
+        text-align: left;
+    }
+    .perfCof{
+        font-size: 60px;
+        text-align: left;
+    }
+    .mayPhoto{
+        max-width: 688px;
+        display: grid;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .women-watch{
+        width: 688px;
+        height: 590px;
+        margin-left: -20px;
+    }
+    .beatyCoffee{
+        display: none;
+    }
+    .menGo{
+        display: none;
+    }
+    .WoMen{
+        width: 688px;
+        height: 590px;
+        margin-left: -20px;
+    }
+    .apps-conteiner{
+        margin-top: 80px;
+        margin-left: 20px;
+        max-width: 688px;
+    }
+    .whereIsDownl{
+        position: absolute;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .mobile-scr{
+        margin-left: 0px;
+        margin-top: 140px;
+    }
+    footer{
+        display: flex;
+        height: 736px;
+        width: 688px;
+        margin-top: 80px;
+    }
+    .foot-text{
+        -webkit-text-stroke: none;
+        text-shadow: none;
+        margin-left: 50px;
+    }
+    .column-2{
+        margin-left: -1330px;
+        margin-top: 410px;
+    }
+    .contactS{
+        position: absolute;
+        margin-top: 0px;
+    }
+    .place{
+        margin-top: 40px;
+        height: 28px;
+    }
+    .phoneNum{
+        margin-top: 0px;
+        height: 28px;
+    }
+    .time{
+        margin-top: 0px;
+        height: 28px;
+    }
+    .apps{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+    
+  }
+  
+  @media (max-width: 450px) {
+    header{
+        width: 320px;
+        margin-top: 15px;
+    }
+    .logo{
+        margin-top: -14px;
+        margin-left: -25px;
+    }
+    .menuButt{
+        margin-top: -15px;
+        display: flex;
+    }
+    .photo1{
+        margin-left: -20px;
+        height: 552px;
+        margin-top: 10px;
+        max-width: 338px;
+    }
+    .coffee{
+        padding-left: 3px;
+        max-width: 305px;
+        font-size: 42px;
+    }
+    .about-coffee{
+        max-width: 300px;
+        position: absolute;
+        margin-top: -140px;
+        padding-left: 3px;
+        font-size: 15px;
+    }
+    .menuArr{
+        display: none;
+    }
+    button{
+        margin-top: 10px;
+        margin-left: 42px; 
+    }
+    .cofCup{
+        display: flex;
+        margin-left: 127px;
+        margin-top: -2px;
+        position: absolute; 
+    }
+    .leftArr{
+        display: none;
+    }
+    .rightArr{
+        display: none;
+    }
+    .container-choseCof{
+        margin-top: -200px;
+    }
+    .coffee-fav{
+        text-align: center;
+        margin-left: -51px;
+        width: 400px;
+        height: 80px;
+        font-size: 32px;
+    }
+    .photo2-1{
+        width: 348px;
+        height: 348px;
+        display: flex;
+        margin-left: -10px;
+    }
+    .photo2-2{
+        width: 348px;
+        height: 348px;
+        display: flex;
+        margin-left: -10px;
+    }
+    .photo-3{
+        width: 348px;
+        height: 348px;
+        display: flex;
+        margin-left: -10px;
+    }
+    .frapC{
+        padding-top: 10px;
+        text-align: center;
+        font-size: 30px;
+        margin-left: -28px;
+        width: 348px;
+        height: 30px;
+    }
+    .frapC-2{
+        padding-top: 10px;
+        text-align: center;
+        font-size: 30px;
+        margin-left: -28px;
+        width: 348px;
+        height: 30px;
+    }
+    .frapC-2{
+        padding-top: 10px;
+        text-align: center;
+        font-size: 30px;
+        margin-left: -28px;
+        width: 348px;
+        height: 30px;
+    }
+    .frapOptions{
+        margin-top: 22px;
+        margin-left: -14px;
+        text-align: center;
+        width: 320px;
+        height: 72px;
+        font-size: 16px;
+    }
+    .frapOptions-2{
+        margin-top: 22px;
+        margin-left: -14px;
+        text-align: center;
+        width: 320px;
+        height: 72px;
+        font-size: 16px;
+    }
+    .frapOptions-3{
+        margin-top: 22px;
+        margin-left: -14px;
+        text-align: center;
+        width: 320px;
+        height: 72px;
+        font-size: 16px;
+    }
+    .cofDoll1{
+        text-align: center;
+        margin-left: -30px;
+        width: 348px;
+        height: 30px;
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .cofDoll2{
+        text-align: center;
+        margin-left: -30px;
+        width: 348px;
+        height: 30px;
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .cofDoll3{
+        text-align: center;
+        margin-left: -30px;
+        width: 348px;
+        height: 30px;
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .contr3doot{
+        display: flex;
+        margin-top: 40px;
+        margin-left: 70px;
+        width: 144px;
+        height: 4px;
+    }
+    .contr3doot-2{
+        display: flex;
+        margin-top: 40px;
+        margin-left: 70px;
+        width: 144px;
+        height: 4px;
+    }
+    .contr3doot-3{        
+        display: flex;
+        margin-top: 40px;
+        margin-left: 70px;
+        width: 144px;
+        height: 4px;
+
+    }
+    .container-photosResource{
+        padding-top: 0px;
+    }
+    .whaPhCof{
+        margin-left: -20px;
+        margin-top: -80px;
+        width: 348px;
+        height: 320px;
+        font-size: 32px;
+    }
+    .perfCof{
+        width: 348px;
+        height: 320px;
+        font-size: 32px;
+    }
+    .women-watch{
+        width: 348px;
+        height: 590px;
+        margin-left: -45px;
+    }
+    .WoMen{
+        margin-top: 40px;
+        width: 348px;
+        height: 590px;
+        margin-left: -45px;
+    }
+    .apps-conteiner{
+        padding-top: 0px;
+    }
+    .down1-app{
+        font-size: 32px;
+        margin-left: -40px;
+    }
+    .downTheResors{
+        font-size: 16px;
+        margin-left: -40px;
+        padding-top: 5px;
+    }
+    .whereIsDownl{
+        display: block;
+        margin-top: 40px;
+        margin-left: -20px;
+    }
+    .foot2{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .mobile-scr{
+        width: 348px;
+        height: 348px;
+        margin-top: 205px;
+        margin-left: -10px; 
+    }
+    footer{
+        width: 328px;
+        height: 526px;
+        margin-left: -15px;
+        padding-bottom: 100px;
+    }
+    .foot-text{
+        font-size: 36px;
+        margin-top: 10px;
+        margin-left: 20px;
+        -webkit-text-stroke: none;
+        text-shadow: none;
+    }
+    .apps{
+        margin-left: 25px;
+        margin-top: 40px;
+    }
+    .contactS{
+        margin-top: -105px;
+        padding-left: 195px;
+        font-weight: 500;
+    }
+    .place{
+        margin-top: -30px;
+        padding-left: 195px;
+    }
+    .phoneNum{
+        margin-top: -8px;
+        padding-left: 195px;
+    }
+    .time{
+        margin-top: -8px;
+        padding-left: 195px;
+    }
+}
