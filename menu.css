@@ -1,0 +1,50 @@
+* {
+    text-decoration: none;
+    margin: 0; 
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+a{
+    color: #403F3D;
+    border-radius: 40px;
+}
+
+.blocks{
+    height: 46px;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.iconCoff{
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    left: -5px;
+}
+.iconTeaa{
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    left: -5px;
+}
+.iconPanc{
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%;
+    align-items: center; 
+    justify-content: center;
+    position: relative;
+    top: 10px;
+    left: -5px;
+}

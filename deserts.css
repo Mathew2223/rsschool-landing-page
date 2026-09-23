@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: #E1D4C9;
+    padding-right: 40px;
+    padding-top: 6px;
+    padding-left: 40px;
+}
+header{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    margin-top: -15px;
+    width: 100px;
+    height: 60px;
+}
+.menuButt{
+    display: none;
+}
+.P-S{
+    font-family: inter;
+    font-weight: 500;
+    display: flex;
+    gap: 40px;
+    color: #403F3D;
+}
+.menu-base{
+    display: flex;
+    gap: 5px;
+    color: #403F3D;
+}
+.menu{
+    text-decoration: underline 2px;
+    font-family: inter;
+    font-weight: 500;
+    width: 100px;
+    height: 60px;
+}
+.coffee-menu{
+    width: 20px;
+    height: 20px;
+}
+
+footer{
+    width: 100%;
+    height: 450px;
+    background-color: #665F55;
+    margin-top: 130px;
+    margin-bottom: 40px;
+    border-radius: 40px;
+}
+.foot-text{
+    -webkit-text-stroke: 0.9px #000;
+    text-shadow: 0px 0px 3px #000;
+    font-family: inter;
+    font-weight: 500;
+    font-size: 60px;
+    margin-left: 85px;
+    padding-top: 40px;
+}
+.foot2{
+    margin-left: 20px;
+}
+.apps{
+    margin-top: 50px;
+    margin-left: 85px;
+}
+.instagram{
+    margin-left: 12px;
+}
+.facebook{
+    margin-left: 12px;
+}
+.place{
+    margin-left: 850px;
+    padding-top: 40px;
+}
+.phoneNum{
+    margin-left: 850px;
+    padding-top: 20px;
+}
+.time{
+    margin-left: 850px;
+    padding-top: 20px;
+}
+.contactS{
+    font-family: inter;
+    font-size: 24px;
+    margin-left: 850px;
+    margin-top: -230px;
+}
+
+
+
+.behSup{
+    text-align: center;
+    color: #403F3D;
+    font-size: 60px;
+    font-family: Inter;
+    font-weight: 500;
+}
+.behBeh{
+    color: #B0907A;
+}
+
+.cofEl{
+    gap: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.col{
+    cursor: pointer;
+    display: grid;
+    padding-top: 40px;
+    justify-content: space-between;
+}
+.card {
+    weight: 310px;
+    height: 506px;
+    border: 1px solid #C1B6AD;
+    object-fit: cover;
+    border-radius: 40px;
+    padding: 0px;
+}
+.card-img-top{
+    width: 310px;
+    height: 310px;
+    border-radius: 40px;
+    margin: auto;
+}
+.card-title{
+    padding-left: 20px;
+    padding-top: 12px;
+    font-weight: 600;
+    color: #403F3D;
+    font-size: 24px;
+}
+.card-text{
+    font-family: Inter;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 12px;
+    color: #403F3D;
+    font-size: 16px;
+}
+.doll7{
+    font-family: Inter;
+    padding-left: 20px;
+    padding-top: 12px;
+    color: #403F3D;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+@media (max-width: 768px) {
+    header{
+        margin-top: 10px;
+    }
+    .menuButt{
+        padding-top: 10px;
+        display: flex;
+    }
+    .logo{
+        margin-top: 0px;
+    }
+    .menu-base{
+        display: none;
+    }
+    .P-S{
+        display: none;
+    }
+    .behSup{
+        margin-top: 20px;
+        width: 688px;
+        font-size: 56px;
+    }
+    footer{
+        display: flex;
+        height: 736px;
+        width: 688px;
+        margin-top: 80px;
+    }
+    .foot-text{
+        -webkit-text-stroke: none;
+        text-shadow: none;
+        margin-left: 50px;
+    }
+    .column-2{
+        margin-left: -1330px;
+        margin-top: 410px;
+    }
+    .contactS{
+        position: absolute;
+        margin-top: 0px;
+    }
+    .place{
+        margin-top: 40px;
+        height: 28px;
+    }
+    .phoneNum{
+        margin-top: 0px;
+        height: 28px;
+    }
+    .time{
+        margin-top: 0px;
+        height: 28px;
+    }
+    .apps{
+        margin-left: 50px;
+        margin-top: 50px;
+    }
+}
+@media (max-width: 450px) {
+    header{
+        margin-top: 7px;
+    }
+    .menuButt{
+        padding-top: 8px;
+        display: flex;
+    }
+    .logo{
+        margin-left: -15px;
+        margin-top: 5px;
+    }
+    .menu-base{
+        display: none;
+    }
+    .P-S{
+        display: none;
+    }
+    .behSup{
+        margin-top: 20px;
+        margin-left: -35px; 
+        width: 360px;
+        font-size: 31px;
+        text-align: center;
+    }
+    .cofBlock{
+        margin-left: -15px;
+    }
+    .container-cof{
+        margin-left: -10px;
+    }
+    footer{
+        width: 328px;
+        height: 526px;
+        margin-left: -15px;
+        padding-bottom: 100px;
+    }
+    .foot-text{
+        font-size: 36px;
+        margin-top: 10px;
+        margin-left: 20px;
+        -webkit-text-stroke: none;
+        text-shadow: none;
+    }
+    .apps{
+        margin-left: 25px;
+        margin-top: 40px;
+    }
+    .contactS{
+        margin-top: -105px;
+        padding-left: 195px;
+        font-weight: 500;
+    }
+    .place{
+        margin-top: -30px;
+        padding-left: 195px;
+    }
+    .phoneNum{
+        margin-top: -8px;
+        padding-left: 195px;
+    }
+    .time{
+        margin-top: -8px;
+        padding-left: 195px;
+    }
+}
