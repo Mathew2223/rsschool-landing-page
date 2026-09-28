@@ -1,27 +1,27 @@
-.cofBlock{
-    margin-left: 0px;
-    align-items: center; 
-    border: 1px solid #C1B6AD;
-    padding: 8px; 
-    border-radius: 100px;
-    background-color: #E1D4C9;
-    /* background-color: #C1B6AD; */
+.cofBlock {
+  margin-left: 0px;
+  align-items: center;
+  border: 1px solid #c1b6ad;
+  padding: 8px;
+  border-radius: 100px;
+  background-color: #e1d4c9;
+  /* background-color: #C1B6AD; */
 }
-.teaBlock{
-    margin-left: 16px;
-    align-items: center; 
-    border: 1px solid #C1B6AD;
-    padding: 8px; 
-    border-radius: 100px;
-    /* background-color: #E1D4C9; */
-    background-color: #C1B6AD;
+.teaBlock {
+  margin-left: 16px;
+  align-items: center;
+  border: 1px solid #c1b6ad;
+  padding: 8px;
+  border-radius: 100px;
+  /* background-color: #E1D4C9; */
+  background-color: #c1b6ad;
 }
-.desBlock{
-    margin-left: 16px;
-    align-items: center; 
-    border: 1px solid #C1B6AD;
-    padding: 8px; 
-    border-radius: 100px;
-    background-color: #E1D4C9;
-    /* background-color: #C1B6AD; */
+.desBlock {
+  margin-left: 16px;
+  align-items: center;
+  border: 1px solid #c1b6ad;
+  padding: 8px;
+  border-radius: 100px;
+  background-color: #e1d4c9;
+  /* background-color: #C1B6AD; */
 }

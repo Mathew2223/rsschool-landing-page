@@ -1,122 +1,267 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee</title>
-    <link rel="stylesheet" href="teaa.css">
-    <link rel="stylesheet" href="menu.css">
-    <link rel="stylesheet" href="tea.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tea</title>
+    <link rel="stylesheet" href="teaa.css" />
+    <link rel="stylesheet" href="menu.css" />
+    <link rel="stylesheet" href="tea.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header>
-        <div>
-            <img class="logo" src="logo.png" alt="Me logo"/>
-        </div>
-        <div class="P-S">
-            <p class="favorite-coffee">Favorite coffee</p>
-            <p class="about">About</p>
-            <p class="mobile-app">Mobile app</p>
-            <p class="contact-us">Contact us</p>
-        </div>
-        <div class="menuButt">
-            <a href="baseMenu.html"><img src="button-icon-burger.svg" alt=""></a>
-        </div>
-        <div class="menu-base">
-            <img class="coffee-menu" src="coffee-cup.png" alt="coffee-menu">
-            <p class="menu"><a href="index.html">Menu</a><Menu</p>
-        </div>
+      <div>
+        <a href="index.html"><img src="logo.png" alt="logo" /></a>
+      </div>
+      <div class="P-S">
+        <p class="favorite-coffee">Favorite coffee</p>
+        <p class="about">About</p>
+        <p class="mobile-app">Mobile app</p>
+        <p class="contact-us">Contact us</p>
+      </div>
+      <div class="menuButt">
+        <a href="baseMenu.html"><img src="button-icon-burger.svg" alt="" /></a>
+      </div>
+      <div class="menu-base">
+        <img class="coffee-menu" src="coffee-cup.png" alt="coffee-menu" />
+        <p class="menu"><a href="index.html">Menu</a></p>
+      </div>
     </header>
+
     <main>
-        <div>
-            <p class="behSup">Behind each of our cups 
-            <br> hides <a class="behBeh">an amazing surprise</a></p>
-        </div>
-        <div class="blocks">
-            <a class="cofBlock" href="coffee.html"><img class="iconCoff" src="icon (4).png" alt=""> Coffee</a>
-            <a class="teaBlock" href="tea.html"><img class="iconTeaa" src="icon (3).png" alt=""> Tea</a>
-            <a class="desBlock" href="desert.html"><img class="iconPanc" src="icon (2).png" alt="">Dessert</a>
-        </div>
-        <div class="container-cof">
-            <div class="cofEl">
-                <div class="col">
-                    <div class="card">
-                        <img src="tea-1.svg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <p class="card-title">Moroccan</p>
-                            <p class="card-text">Fragrant black tea with the addition
-                            <br> of tangerine, cinnamon, honey,
-                            <br> lemon and mint</p>
-                            <p class="doll7">$4.50</p>
-                        </div>
-                        </div>
-                   </div>
-                   <div class="col">
-                    <div class="card">
-                        <img src="tea-2.svg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <p class="card-title">Ginger</p>
-                            <p class="card-text">Original black tea with fresh ginger,
-                            <br> lemon and honey</p>
-                            <p class="doll7">$5.00</p>
-                        </div>
-                        </div>
-                   </div>
-                   <div class="col">
-                    <div class="card">
-                        <img src="tea-3.svg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <p class="card-title">Cranberry</p>
-                            <p class="card-text">Invigorating black tea with
-                            <br> cranberry and honey</p>
-                            <p class="doll7">$5.00</p>
-                        </div>
-                        </div>
-                   </div>
-                   <div class="col">
-                    <div class="card">
-                        <img src="tea-4.svg" class="card-img-top" alt="">
-                        <div class="card-body">
-                            <p class="card-title">Sea buckthorn</p>
-                            <p class="card-text">Toning sweet black tea with sea
-                            <br> buckthorn, fresh thyme and
-                            <br> cinnamon</p>
-                            <p class="doll7">$5.50</p>
-                        </div>
-                        </div>
-                   </div>
+      <div>
+        <p class="behSup">
+          Behind each of our cups <br />
+          hides <a class="behBeh">an amazing surprise</a>
+        </p>
+      </div>
+      <div class="blocks">
+        <a class="cofBlock" href="coffee.html"
+          ><img class="iconCoff" src="icon (4).png" alt="" /> Coffee</a
+        >
+        <a class="teaBlock" href="tea.html"
+          ><img class="iconTeaa" src="icon (3).png" alt="" /> Tea</a
+        >
+        <a class="desBlock" href="desert.html"
+          ><img class="iconPanc" src="icon (2).png" alt="" /> Dessert</a
+        >
+      </div>
+
+      <div class="container-cof">
+        <!-- 1. МОДАЛЬНОЕ ОКНО (Отдельно, НЕ внутри карточек!) -->
+        <div class="pop_up" id="pop_up">
+          <div class="pop_up_container">
+            <div class="pop_up_body" id="pop_up_body">
+              <div>
+                <img class="card-img-topS" src="tea-1.svg" alt="" />
+              </div>
+              <div>
+                <div>
+                  <p class="card-titleS">Moroccan</p>
+                  <p class="card-textS">
+                    Fragrant black tea with the addition of tangerine, cinnamon,
+                    honey, lemon and mint
+                  </p>
                 </div>
+                <div class="SizeZ">
+                  <p class="sizee">Size</p>
+                  <div class="blockS">
+                    <a class="sBlock"
+                      ><img class="iconS" src="icon (5).svg" alt="" />200ml</a
+                    >
+                    <a class="mBlock"
+                      ><img class="iconM" src="icon (6).svg" alt="" />300ml</a
+                    >
+                    <a class="lBlock"
+                      ><img class="iconL" src="icon (7).svg" alt="" />400ml</a
+                    >
+                  </div>
+                </div>
+                <div class="AdditiveZ">
+                  <p class="Additives">Additives</p>
+                  <div class="blockZ">
+                    <a class="b1lock"
+                      ><img class="icon1" src="icon (8).svg" alt="" />Sugar</a
+                    >
+                    <a class="b2lock"
+                      ><img
+                        class="icon2"
+                        src="icon (9).svg"
+                        alt=""
+                      />Cinnamon</a
+                    >
+                    <a class="b3lock"
+                      ><img class="icon3" src="icon (10).svg" alt="" />Syrup</a
+                    >
+                  </div>
+                </div>
+                <div class="totalise">
+                  <p class="totall">Total:</p>
+                  <p class="doll7S">$4.50</p>
+                </div>
+                <div class="divider"></div>
+                <div>
+                  <img class="infoEmpt" src="info-empty.svg" alt="" />
+                  <p class="notFinTot">
+                    The cost is not final. Download our mobile app to see the
+                    final price and place your order.
+                  </p>
+                </div>
+                <div class="butClos">
+                  <button onclick="closePopUp()" class="clos" id="pop_up_close">
+                    Close
+                  </button>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+
+        <!-- 2. СЕТКА С КАРТОЧКАМИ (Отдельно, с ПРАВИЛЬНЫМИ данными в onclick) -->
+        <div class="cofEl">
+          <div class="col">
+            <div
+              class="card"
+              onclick="
+                openModalWindow(
+                  'Moroccan',
+                  'Fragrant black tea with the addition of tangerine, cinnamon, honey, lemon and mint',
+                  '$4.50',
+                  'tea-1.svg',
+                )
+              "
+            >
+              <img src="tea-1.svg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-title">Moroccan</p>
+                <p class="card-text">
+                  Fragrant black tea with the addition<br />
+                  of tangerine, cinnamon, honey,<br />
+                  lemon and mint
+                </p>
+                <p class="doll7">$4.50</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card"
+              onclick="
+                openModalWindow(
+                  'Ginger',
+                  'Original black tea with fresh ginger, lemon and honey',
+                  '$5.00',
+                  'tea-2.svg',
+                )
+              "
+            >
+              <img src="tea-2.svg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-title">Ginger</p>
+                <p class="card-text">
+                  Original black tea with fresh ginger,<br />
+                  lemon and honey
+                </p>
+                <p class="doll7">$5.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card"
+              onclick="
+                openModalWindow(
+                  'Cranberry',
+                  'Invigorating black tea with cranberry and honey',
+                  '$5.00',
+                  'tea-3.svg',
+                )
+              "
+            >
+              <img src="tea-3.svg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-title">Cranberry</p>
+                <p class="card-text">
+                  Invigorating black tea with<br />
+                  cranberry and honey
+                </p>
+                <p class="doll7">$5.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card"
+              onclick="
+                openModalWindow(
+                  'Sea buckthorn',
+                  'Toning sweet black tea with sea buckthorn, fresh thyme and cinnamon',
+                  '$5.50',
+                  'tea-4.svg',
+                )
+              "
+            >
+              <img src="tea-4.svg" class="card-img-top" alt="" />
+              <div class="card-body">
+                <p class="card-title">Sea buckthorn</p>
+                <p class="card-text">
+                  Toning sweet black tea with sea<br />
+                  buckthorn, fresh thyme and<br />
+                  cinnamon
+                </p>
+                <p class="doll7">$5.50</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+
     <footer>
-        <div class="column-1">
-            <div class="foot-text">
-                <p style="color: #E1D4C9;">Sip, Savor, Smile. 
-                    <a style="color: #B0907A; font-style: italic"><br>It's coffee time!</a></p>
-                </div>
-                <div class="apps">
-                <img class="twitter" src="button-icon-light.svg" alt="twitter">
-                <img class="instagram" src="button-icon-light (1).svg" alt="instagram">
-                <img class="facebook" src="button-icon-light (2).svg" alt="facebook">
-            </div>
-            </div>
+      <div class="column-1">
+        <div class="foot-text">
+          <p style="color: #e1d4c9">
+            Sip, Savor, Smile.
+            <a style="color: #b0907a; font-style: italic"
+              ><br />It's coffee time!</a
+            >
+          </p>
         </div>
-        <div class="column-2">
-            <div>
-                <p class="contactS" style="color: #E1D4C9;">Contact us</p>
-            </div>
-            <div class="place">
-                <img src="link-item.svg" alt="">
-            </div>
-            <div class="phoneNum">
-                <img src="link.svg" alt="">
-            </div>
-            <div class="time">
-                 <img src="link (1).svg" alt="">
-            </div>
+        <div class="apps">
+          <img class="twitter" src="button-icon-light.svg" alt="twitter" />
+          <img
+            class="instagram"
+            src="button-icon-light (1).svg"
+            alt="instagram"
+          />
+          <img
+            class="facebook"
+            src="button-icon-light (2).svg"
+            alt="facebook"
+          />
         </div>
+      </div>
+      <div class="column-2">
+        <div>
+          <p class="contactS" style="color: #e1d4c9">Contact us</p>
+        </div>
+        <div class="place">
+          <img src="link-item.svg" alt="" />
+        </div>
+        <div class="phoneNum">
+          <img src="link.svg" alt="" />
+        </div>
+        <div class="time">
+          <img src="link (1).svg" alt="" />
+        </div>
+      </div>
     </footer>
-</body>
+
+    <script src="mod_windowS.js"></script>
+  </body>
 </html>

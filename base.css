@@ -183,7 +183,7 @@ button {
   inset: 0;
   transition: 200ms opacity ease-in-out;
 }
-.slide[data-active] {
+.slide.active {
   opacity: 1;
   z-index: 1;
 }
@@ -197,7 +197,7 @@ button {
 .frapC,
 .frapC-2,
 .frapC-3 {
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   margin-top: -30px;
   font-size: 30px;
@@ -206,7 +206,7 @@ button {
 .frapOptions,
 .frapOptions-2,
 .frapOptions-3 {
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   margin-top: 15px;
   color: #403f3d;
@@ -215,7 +215,7 @@ button {
 .cofDoll1,
 .cofDoll2,
 .cofDoll3 {
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   margin-top: 15px;
   color: #403f3d;
@@ -227,19 +227,16 @@ button {
   border-radius: 40px;
 }
 .whaPhCof {
-  justify-content: center;
   text-align: center;
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 50px;
   color: #403f3d;
   margin-top: 100px;
 }
 .perfCof {
-  justify-content: center;
-  text-align: center;
   font-style: italic;
-  font-family: inter;
+  font-family: "Inter", sans-serif;
   font-weight: 500;
   font-size: 50px;
   color: #b0907a;
